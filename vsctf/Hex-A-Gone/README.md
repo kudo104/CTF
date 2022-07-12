@@ -185,6 +185,4 @@ im.save("out.bmp")
 
 ```
 ## Flag
-out.bmp
-
-
+![alt text](https://github.com/kudo104/CTF/blob/main/vsctf/Hex-A-Gone/out.bmp)

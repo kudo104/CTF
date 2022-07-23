@@ -1,0 +1,228 @@
+0x40100a xor     eax, eax
+0x401022 sub     rsp, 80h
+0x401026 sub     rsp, 80h
+0x401034 xor     edi, edi
+0x401042 mov     rsi, rsp
+0x40105a mov     edx, 80h
+0x40105e mov     edx, 80h
+0x40106c syscall; LINUX - sys_read
+0x40107a mov     al, [rsp]
+0x401088 sub     al, 60h ; '`'
+0x401096 sub     al, 9
+0x4010ae xor     byte ptr cs:loc_4010B6+5, al
+0x4010b2 xor     byte ptr cs:loc_4010B6+5, al
+0x4010bb xor     dword ptr cs:loc_4010CA, 2410C9C2h
+0x4010ca mov     al, [rsp+1]
+0x4010dc sub     al, 60h
+0x4010ea sub     al, 3
+0x401102 xor     byte ptr cs:loc_40110A+5, al
+0x401106 xor     byte ptr cs:loc_40110A+5, al
+0x40110f xor     dword ptr cs:loc_40111E, 2710C9C2h
+0x40111e mov     al, [rsp+2]
+0x401130 sub     al, 60h
+0x40113e sub     al, 14h
+0x401156 xor     byte ptr cs:loc_40115E+5, al
+0x40115a xor     byte ptr cs:loc_40115E+5, al
+0x401163 xor     dword ptr cs:loc_401172, 2610C9C2h
+0x401172 mov     al, [rsp+3]
+0x401184 sub     al, 60h ; '`'
+0x401192 sub     al, 6
+0x4011aa xor     byte ptr cs:loc_4011B2+5, al
+0x4011ae xor     byte ptr cs:loc_4011B2+5, al
+0x4011b7 xor     dword ptr cs:loc_4011C6, 2110C9C2h
+0x4011c6 mov     al, [rsp+4]
+0x4011d8 sub     al, 60h ; '`'
+0x4011e6 sub     al, 1Bh
+0x4011fe xor     byte ptr cs:loc_401206+5, al
+0x401202 xor     byte ptr cs:loc_401206+5, al
+0x40120b xor     dword ptr cs:loc_40121A, 2010C9C2h
+0x40121a mov     al, [rsp+5]
+0x40122c sub     al, 60h ; '`'
+0x40123a sub     al, 4
+0x401252 xor     byte ptr cs:loc_40125A+5, al
+0x401256 xor     byte ptr cs:loc_40125A+5, al
+0x40125f xor     dword ptr cs:loc_40126E, 2310C9C2h
+0x40126e mov     al, [rsp+6]
+0x401280 sub     al, 60h
+0x40128e sub     al, 19h
+0x4012a6 xor     byte ptr cs:loc_4012AE+5, al
+0x4012aa xor     byte ptr cs:loc_4012AE+5, al
+0x4012b3 xor     dword ptr cs:loc_4012C2, 2210C9C2h
+0x4012c2 mov     al, [rsp+7]
+0x4012d4 sub     al, 60h ; '`'
+0x4012e2 sub     al, 0Eh
+0x4012fa xor     byte ptr cs:loc_401302+5, al
+0x4012fe xor     byte ptr cs:loc_401302+5, al
+0x401307 xor     dword ptr cs:loc_401316, 2D10C9C2h
+0x401316 mov     al, [rsp+8]
+0x401328 sub     al, 60h
+0x401336 sub     al, 1
+0x40134e xor     byte ptr cs:loc_401356+5, al
+0x401352 xor     byte ptr cs:loc_401356+5, al
+0x40135b xor     dword ptr cs:loc_40136A, 2C10C9C2h
+0x40136a mov     al, [rsp+9]
+0x40137c sub     al, 60h
+0x40138a sub     al, 0Dh
+0x4013a2 xor     byte ptr cs:loc_4013AA+5, al
+0x4013a6 xor     byte ptr cs:loc_4013AA+5, al
+0x4013af xor     dword ptr cs:loc_4013BE, 2F10C9C2h
+0x4013be mov     al, [rsp+0Ah]
+0x4013d0 sub     al, 60h
+0x4013de sub     al, 0D1h
+0x4013f6 xor     byte ptr cs:loc_4013FE+5, al
+0x4013fa xor     byte ptr cs:loc_4013FE+5, al
+0x401403 xor     dword ptr cs:loc_401412, 2E10C9C2h
+0x401412 mov     al, [rsp+0Bh]
+0x401424 sub     al, 60h
+0x401432 sub     al, 3
+0x40144a xor     byte ptr cs:loc_401452+5, al
+0x40144e xor     byte ptr cs:loc_401452+5, al
+0x401457 xor     dword ptr cs:loc_401466, 2910C9C2h
+0x401466 mov     al, [rsp+0Ch]
+0x401478 sub     al, 60h ; '`'
+0x401486 sub     al, 0FFh
+0x40149e xor     byte ptr cs:loc_4014A6+5, al
+0x4014a2 xor     byte ptr cs:loc_4014A6+5, al
+0x4014ab xor     dword ptr cs:loc_4014BA, 2810C9C2h
+0x4014ba mov     al, [rsp+0Dh]
+0x4014cc sub     al, 60h ; '`'
+0x4014da sub     al, 4
+0x4014f2 xor     byte ptr cs:loc_4014FA+5, al
+0x4014f6 xor     byte ptr cs:loc_4014FA+5, al
+0x4014ff xor     dword ptr cs:loc_40150E, 2B10C9C2h
+0x40150e mov     al, [rsp+0Eh]
+0x401520 sub     al, 60h
+0x40152e sub     al, 0D3h
+0x401546 xor     byte ptr cs:loc_40154E+5, al
+0x40154a xor     byte ptr cs:loc_40154E+5, al
+0x401553 xor     dword ptr cs:loc_401562, 2A10C9C2h
+0x401562 mov     al, [rsp+0Fh]
+0x401574 sub     al, 60h
+0x401582 sub     al, 2
+0x40159a xor     byte ptr cs:loc_4015A2+5, al
+0x40159e xor     byte ptr cs:loc_4015A2+5, al
+0x4015a7 xor     dword ptr cs:loc_4015B6, 3510C9C2h
+0x4015b6 mov     al, [rsp+10h]
+0x4015c8 sub     al, 60h
+0x4015d6 sub     al, 15h
+0x4015ee xor     byte ptr cs:loc_4015F6+5, al
+0x4015f2 xor     byte ptr cs:loc_4015F6+5, al
+0x4015fb xor     dword ptr cs:loc_40160A, 3410C9C2h
+0x40160a mov     al, [rsp+11h]
+0x40161c sub     al, 60h ; '`'
+0x40162a sub     al, 7
+0x401642 xor     byte ptr cs:loc_40164A+5, al
+0x401646 xor     byte ptr cs:loc_40164A+5, al
+0x40164f xor     dword ptr cs:loc_40165E, 3710C9C2h
+0x40165e mov     al, [rsp+12h]
+0x401670 sub     al, 60h ; '`'
+0x40167e sub     al, 7
+0x401696 xor     byte ptr cs:loc_40169E+5, al
+0x40169a xor     byte ptr cs:loc_40169E+5, al
+0x4016a3 xor     dword ptr cs:loc_4016B2, 3610C9C2h
+0x4016b2 mov     al, [rsp+13h]
+0x4016c4 sub     al, 60h
+0x4016d2 sub     al, 0D1h
+0x4016ea xor     byte ptr cs:loc_4016F2+5, al
+0x4016ee xor     byte ptr cs:loc_4016F2+5, al
+0x4016f7 xor     dword ptr cs:loc_401706, 3110C9C2h
+0x401706 mov     al, [rsp+14h]
+0x401718 sub     al, 60h ; '`'
+0x401726 sub     al, 0Eh
+0x40173e xor     byte ptr cs:loc_401746+5, al
+0x401742 xor     byte ptr cs:loc_401746+5, al
+0x40174b xor     dword ptr cs:loc_40175A, 3010C9C2h
+0x40175a mov     al, [rsp+15h]
+0x40176c sub     al, 60h
+0x40177a sub     al, 7
+0x401792 xor     byte ptr cs:loc_40179A+5, al
+0x401796 xor     byte ptr cs:loc_40179A+5, al
+0x40179f xor     dword ptr cs:loc_4017AE, 3310C9C2h
+0x4017ae mov     al, [rsp+16h]
+0x4017c0 sub     al, 60h ; '`'
+0x4017ce sub     al, 0FFh
+0x4017e6 xor     byte ptr cs:loc_4017EE+5, al
+0x4017ea xor     byte ptr cs:loc_4017EE+5, al
+0x4017f3 xor     dword ptr cs:loc_401802, 3210C9C2h
+0x401802 mov     al, [rsp+17h]
+0x401814 sub     al, 60h ; '`'
+0x401822 sub     al, 0D1h
+0x40183a xor     byte ptr cs:loc_401842+5, al
+0x40183e xor     byte ptr cs:loc_401842+5, al
+0x401847 xor     dword ptr cs:loc_401856, 3D10C9C2h
+0x401856 mov     al, [rsp+18h]
+0x401868 sub     al, 60h
+0x401876 sub     al, 13h
+0x40188e xor     byte ptr cs:loc_401896+5, al
+0x401892 xor     byte ptr cs:loc_401896+5, al
+0x40189b xor     dword ptr cs:loc_4018AA, 3C10C9C2h
+0x4018aa mov     al, [rsp+19h]
+0x4018bc sub     al, 60h
+0x4018ca sub     al, 0FFh
+0x4018e2 xor     byte ptr cs:loc_4018EA+5, al
+0x4018e6 xor     byte ptr cs:loc_4018EA+5, al
+0x4018ef xor     dword ptr cs:loc_4018FE, 3F10C9C2h
+0x4018fe mov     al, [rsp+1Ah]
+0x401910 sub     al, 60h ; '`'
+0x40191e sub     al, 0Eh
+0x401936 xor     byte ptr cs:loc_40193E+5, al
+0x40193a xor     byte ptr cs:loc_40193E+5, al
+0x401943 xor     dword ptr cs:loc_401952, 3E10C9C2h
+0x401952 mov     al, [rsp+1Bh]
+0x401964 sub     al, 60h
+0x401972 sub     al, 0D1h
+0x40198a xor     byte ptr cs:loc_401992+5, al
+0x40198e xor     byte ptr cs:loc_401992+5, al
+0x401997 xor     dword ptr cs:loc_4019A6, 3910C9C2h
+0x4019a6 mov     al, [rsp+1Ch]
+0x4019b8 sub     al, 60h ; '`'
+0x4019c6 sub     al, 3
+0x4019de xor     byte ptr cs:loc_4019E6+5, al
+0x4019e2 xor     byte ptr cs:loc_4019E6+5, al
+0x4019eb xor     dword ptr cs:loc_4019FA, 3810C9C2h
+0x4019fa mov     al, [rsp+1Dh]
+0x401a0c sub     al, 60h ; '`'
+0x401a1a sub     al, 5
+0x401a32 xor     byte ptr cs:loc_401A3A+5, al
+0x401a36 xor     byte ptr cs:loc_401A3A+5, al
+0x401a3f xor     dword ptr cs:loc_401A4E, 3B10C9C2h
+0x401a4e mov     al, [rsp+1Eh]
+0x401a60 sub     al, 60h
+0x401a6e sub     al, 1Dh
+0x401a86 xor     byte ptr cs:loc_401A8E+5, al
+0x401a8a xor     byte ptr cs:loc_401A8E+5, al
+0x401a93 xor     dword ptr cs:loc_401AA2, 3A10C9C2h
+0x401aa2 mov     al, [rsp+1Fh]
+0x401ab4 sub     al, 60h ; '`'
+0x401ac2 sub     al, 0AAh
+0x401ada xor     byte ptr cs:loc_401AE2+5, al
+0x401ade xor     byte ptr cs:loc_401AE2+5, al
+0x401ae7 xor     dword ptr cs:loc_401AF6, 6610898Eh
+0x401af6 mov     byte ptr [rsp], 43h ; 'C'
+0x401b12 mov     byte ptr [rsp+1], 6Fh ; 'o'
+0x401b16 mov     byte ptr [rsp+1], 6Fh ; 'o'
+0x401b2e mov     byte ptr [rsp+2], 72h ; 'r'
+0x401b32 mov     byte ptr [rsp+2], 72h ; 'r'
+0x401b4a mov     byte ptr [rsp+3], 72h ; 'r'
+0x401b4e mov     byte ptr [rsp+3], 72h ; 'r'
+0x401b66 mov     byte ptr [rsp+4], 65h ; 'e'
+0x401b6a mov     byte ptr [rsp+4], 65h ; 'e'
+0x401b82 mov     byte ptr [rsp+5], 63h ; 'c'
+0x401b86 mov     byte ptr [rsp+5], 63h ; 'c'
+0x401b9e mov     byte ptr [rsp+6], 74h ; 't'
+0x401ba2 mov     byte ptr [rsp+6], 74h ; 't'
+0x401bba mov     byte ptr [rsp+7], 21h ; '!'
+0x401bbe mov     byte ptr [rsp+7], 21h ; '!'
+0x401bd6 mov     byte ptr [rsp+8], 0Ah
+0x401bda mov     byte ptr [rsp+8], 0Ah
+0x401be8 xor     eax, eax
+0x401bf6 inc     eax
+0x401c04 xor     edi, edi
+0x401c12 inc     edi
+0x401c20 mov     rsi, rsp
+0x401c38 mov     edx, 9
+0x401c3c mov     edx, 9
+0x401c4a syscall; LINUX - sys_write
+0x401c58 mov     al, 3Ch
+0x401c66 xor     edi, edi
+0x401c74 syscall; LINUX - sys_exit

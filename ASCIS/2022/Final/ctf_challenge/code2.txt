@@ -1,0 +1,925 @@
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   8b 57 00                mov    edx, DWORD PTR [edi+0x0]
+   0:   81 c1 04 00 00 00       add    ecx, 0x4
+   0:   81 c7 04 00 00 00       add    edi, 0x4
+   0:   81 fa 00 00 00 00       cmp    edx, 0x0
+   0:   81 f9 24 00 00 00       cmp    ecx, 0x24
+   0:   81 c7 dc ff ff ff       add    edi, 0xffffffdc
+   0:   89 7d 08                mov    DWORD PTR [ebp+0x8], edi
+   0:   89 75 0c                mov    DWORD PTR [ebp+0xc], esi
+   0:   89 1c 24                mov    DWORD PTR [esp], ebx
+   0:   89 74 24 04             mov    DWORD PTR [esp+0x4], esi
+   0:   89 7c 24 08             mov    DWORD PTR [esp+0x8], edi
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   8b 55 0c                mov    edx, DWORD PTR [ebp+0xc]
+   0:   8b 70 00                mov    esi, DWORD PTR [eax+0x0]
+   0:   8b 78 04                mov    edi, DWORD PTR [eax+0x4]
+   0:   b9 b9 79 37 9e          mov    ecx, 0x9e3779b9
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   89 70 00                mov    DWORD PTR [eax+0x0], esi
+   0:   89 78 04                mov    DWORD PTR [eax+0x4], edi
+   0:   8b 1c 24                mov    ebx, DWORD PTR [esp]
+   0:   8b 74 24 04             mov    esi, DWORD PTR [esp+0x4]
+   0:   8b 74 24 04             mov    esi, DWORD PTR [esp+0x4]
+   0:   8b 7c 24 08             mov    edi, DWORD PTR [esp+0x8]
+   0:   8b 56 00                mov    edx, DWORD PTR [esi+0x0]
+   0:   bb 89 ab cd ef          mov    ebx, 0xefcdab89
+   0:   31 da                   xor    edx, ebx
+   0:   89 56 04                mov    DWORD PTR [esi+0x4], edx
+   0:   81 c7 08 00 00 00       add    edi, 0x8
+   0:   89 7d 08                mov    DWORD PTR [ebp+0x8], edi
+   0:   89 75 0c                mov    DWORD PTR [ebp+0xc], esi
+   0:   89 1c 24                mov    DWORD PTR [esp], ebx
+   0:   89 74 24 04             mov    DWORD PTR [esp+0x4], esi
+   0:   89 7c 24 08             mov    DWORD PTR [esp+0x8], edi
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   8b 55 0c                mov    edx, DWORD PTR [ebp+0xc]
+   0:   8b 70 00                mov    esi, DWORD PTR [eax+0x0]
+   0:   8b 78 04                mov    edi, DWORD PTR [eax+0x4]
+   0:   b9 b9 79 37 9e          mov    ecx, 0x9e3779b9
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   89 70 00                mov    DWORD PTR [eax+0x0], esi
+   0:   89 78 04                mov    DWORD PTR [eax+0x4], edi
+   0:   8b 1c 24                mov    ebx, DWORD PTR [esp]
+   0:   8b 74 24 04             mov    esi, DWORD PTR [esp+0x4]
+   0:   8b 7c 24 08             mov    edi, DWORD PTR [esp+0x8]
+   0:   8b 56 04                mov    edx, DWORD PTR [esi+0x4]
+   0:   bb de ad be ef          mov    ebx, 0xefbeadde
+   0:   bb de ad be ef          mov    ebx, 0xefbeadde
+   0:   31 da                   xor    edx, ebx
+   0:   89 56 08                mov    DWORD PTR [esi+0x8], edx
+   0:   81 c7 08 00 00 00       add    edi, 0x8
+   0:   89 7d 08                mov    DWORD PTR [ebp+0x8], edi
+   0:   89 75 0c                mov    DWORD PTR [ebp+0xc], esi
+   0:   89 1c 24                mov    DWORD PTR [esp], ebx
+   0:   89 74 24 04             mov    DWORD PTR [esp+0x4], esi
+   0:   89 7c 24 08             mov    DWORD PTR [esp+0x8], edi
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   8b 55 0c                mov    edx, DWORD PTR [ebp+0xc]
+   0:   8b 70 00                mov    esi, DWORD PTR [eax+0x0]
+   0:   8b 78 04                mov    edi, DWORD PTR [eax+0x4]
+   0:   b9 b9 79 37 9e          mov    ecx, 0x9e3779b9
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   89 70 00                mov    DWORD PTR [eax+0x0], esi
+   0:   89 78 04                mov    DWORD PTR [eax+0x4], edi
+   0:   8b 1c 24                mov    ebx, DWORD PTR [esp]
+   0:   8b 74 24 04             mov    esi, DWORD PTR [esp+0x4]
+   0:   8b 7c 24 08             mov    edi, DWORD PTR [esp+0x8]
+   0:   8b 7c 24 08             mov    edi, DWORD PTR [esp+0x8]
+   0:   8b 56 04                mov    edx, DWORD PTR [esi+0x4]
+   0:   8b 56 04                mov    edx, DWORD PTR [esi+0x4]
+   0:   bb 98 ba dc fe          mov    ebx, 0xfedcba98
+   0:   bb 98 ba dc fe          mov    ebx, 0xfedcba98
+   0:   03 d3                   add    edx, ebx
+   0:   03 d3                   add    edx, ebx
+   0:   89 56 00                mov    DWORD PTR [esi+0x0], edx
+   0:   89 56 00                mov    DWORD PTR [esi+0x0], edx
+   0:   81 c7 08 00 00 00       add    edi, 0x8
+   0:   89 7d 08                mov    DWORD PTR [ebp+0x8], edi
+   0:   89 75 0c                mov    DWORD PTR [ebp+0xc], esi
+   0:   89 1c 24                mov    DWORD PTR [esp], ebx
+   0:   89 74 24 04             mov    DWORD PTR [esp+0x4], esi
+   0:   89 7c 24 08             mov    DWORD PTR [esp+0x8], edi
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   8b 55 0c                mov    edx, DWORD PTR [ebp+0xc]
+   0:   8b 70 00                mov    esi, DWORD PTR [eax+0x0]
+   0:   8b 78 04                mov    edi, DWORD PTR [eax+0x4]
+   0:   b9 b9 79 37 9e          mov    ecx, 0x9e3779b9
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   89 fb                   mov    ebx, edi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 00                add    ebx, DWORD PTR [edx+0x0]
+   0:   8d 04 39                lea    eax, [ecx+edi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f8                   mov    eax, edi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 04                add    eax, DWORD PTR [edx+0x4]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 f3                   add    esi, ebx
+   0:   89 f3                   mov    ebx, esi
+   0:   c1 e3 04                shl    ebx, 0x4
+   0:   03 5a 08                add    ebx, DWORD PTR [edx+0x8]
+   0:   8d 04 31                lea    eax, [ecx+esi*1]
+   0:   31 c3                   xor    ebx, eax
+   0:   89 f0                   mov    eax, esi
+   0:   c1 e8 05                shr    eax, 0x5
+   0:   03 42 0c                add    eax, DWORD PTR [edx+0xc]
+   0:   31 c3                   xor    ebx, eax
+   0:   03 fb                   add    edi, ebx
+   0:   81 c1 b9 79 37 9e       add    ecx, 0x9e3779b9
+   0:   81 f9 81 47 f3 8f       cmp    ecx, 0x8ff34781
+   0:   8b 45 08                mov    eax, DWORD PTR [ebp+0x8]
+   0:   89 70 00                mov    DWORD PTR [eax+0x0], esi
+   0:   89 78 04                mov    DWORD PTR [eax+0x4], edi
+   0:   8b 1c 24                mov    ebx, DWORD PTR [esp]
+   0:   8b 74 24 04             mov    esi, DWORD PTR [esp+0x4]
+   0:   8b 7c 24 08             mov    edi, DWORD PTR [esp+0x8]
+   0:   ba e3 46 89 2e          mov    edx, 0x2e8946e3
+   0:   89 57 08                mov    DWORD PTR [edi+0x8], edx
+   0:   ff                      (bad)  
+   1:   ff                      (bad)  
+   2:   ff                      (bad)  
+   3:   ff                      (bad)  
+   4:   ff                      (bad)  
+   5:   ff                      .byte 0xff

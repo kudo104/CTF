@@ -176,7 +176,7 @@ f.write(s)
 f.close()
 ```
 
-Sau khi đọc mấy cái code vm này thì biết được đây là mã hóa ``XTEA``.Đoạn Vm sử dụng Xtea 4 lần mỗi lần là 8 byte ban đầu key là ```1234567890123456``` sau đó nó sẽ thực hiện thay đổi key lần lược như sau xor 4 byte với 0xefbeadde và đặt tại 4 byte tiếp theo, nó sẽ thực hiện thay đổi key lần lượt xor hoặc add
+Sau khi đọc mấy cái code vm này thì biết được đây là mã hóa ``XTEA``.Đoạn Vm sử dụng Xtea 4 lần mỗi lần là 8 byte ban đầu key là ```1234567890123456``` sau đó nó sẽ thực hiện thay đổi key lần lược như sau xor 4 byte với 0xefbeadde và đặt tại 4 byte tiếp theo.
 
 ```
    0:   89 78 04                mov    DWORD PTR [eax+0x4], edi
@@ -190,7 +190,7 @@ Sau khi đọc mấy cái code vm này thì biết được đây là mã hóa `
    0:   81 c7 08 00 00 00       add    edi, 0x8
    0:   89 7d 08                mov    DWORD PTR [ebp+0x8], edi
 ```
-Script giải mã flag:
+Đọc các đoạn tiếp theo mình được key và script giải mã flag:
 
 ```
 #include <stdint.h>

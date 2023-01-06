@@ -4,5 +4,5 @@
 
 | Name | Type | 
 | :---: | :---: |
-| [ctf_challenge](https://hackmd.io/@AWXkSundSBCbyTFFTFC98Q/BkhkukU_o#The-return-of-Anti-Debug) |`REV`|
+| [ctf_challenge](https://github.com/kudo104/CTF/tree/main/ASCIS/2022/Final/ctf_challenge) |`REV`|
 

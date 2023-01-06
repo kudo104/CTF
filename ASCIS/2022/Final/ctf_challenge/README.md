@@ -1,5 +1,5 @@
 # ctf_challenge
-Tác giả cho 2 file ctf_challenge và flag.txt.Đây là một dạng bài phục hồi lại nội dung trong file.
+Tác giả cho 2 file ctf_challenge và output.txt.Đây là một dạng bài phục hồi lại nội dung trong file.
 
 ![alt](https://github.com/kudo104/CTF/blob/main/ASCIS/2022/Final/ctf_challenge/picture/2.png)
 

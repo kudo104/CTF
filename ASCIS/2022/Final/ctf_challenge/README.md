@@ -96,7 +96,7 @@ LABEL_6:
 }
 ```
 
-Đang chú ý trong quá trình debug thì mình bị lỗi segment liên tục thì phát hiện có 1 anti hardware breapoint
+Đáng chú ý trong quá trình debug thì mình bị lỗi segment liên tục thì phát hiện có 1 anti hardware breapoint
 
 ```
 BOOL __thiscall sub_E1930(int *this)
